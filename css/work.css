@@ -1,0 +1,121 @@
+body{
+position: relative;
+background: #707070;
+}
+h1{
+position: absolute;
+width: 1000px;
+height: 340px;
+left: 450px;
+top: 0px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 180px;
+line-height: 100px;
+color: #FFFFFF;
+text-shadow: 10px -10px 0px #000000;
+}
+
+.container-fluid{
+position: absolute;
+width: 850px;
+height: 1000px;
+left: 500px;
+top: 250px;
+
+background: #FFDD55;
+opacity: 0.9;
+border-radius: 30px;
+}
+
+h3{
+position: absolute;
+left: 75px;
+top: 100px;
+
+font-family: Caveat;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 35px;
+}
+
+#box { 
+     background: black ;
+     width: 100%; 
+} 
+#box ul {
+margin: 1px;
+padding: 0px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+border-radius: 5px;
+}
+ 
+ #box ul {
+    margin: 0px;
+    padding: 0px;
+}
+#box li {
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid black;
+
+}
+#box a:link {
+     color:white;
+     text-decoration: none;
+     display: block;
+     background: black; 
+     line-height: 35px;
+     padding: 5px 15px;     
+}
+
+#box a:visited {
+    color:white;
+     text-decoration: none;
+     display: block;
+     background: black; 
+     line-height: 35px;
+     padding: 5px 15px;
+ }
+#box a:hover {
+     color: white; 
+     background: black;
+}
+#box a:active {
+     color: white;
+     background: black;
+     }
+p {
+     position: absolute;
+width: 180px;
+height: 60px;
+left: 32px;
+top: 184px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 30px;
+text-align: center;
+color: #18191F;
+} 
+.fon{
+position: absolute;
+width: 150px;
+height: 30px;
+left: 5px;
+top: 100px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+color: #474A57;
+}
